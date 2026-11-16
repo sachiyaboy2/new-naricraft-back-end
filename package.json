@@ -1,0 +1,30 @@
+{
+  "name": "nari-craft-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node --test",
+    "setup": "node scripts/setup-env.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@payments-lk/node": "^0.4.1",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dns": "^0.2.2",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "google-auth-library": "^11.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.5",
+    "nodemailer": "^10.1.1",
+    "nodemon": "^3.1.14",
+    "resend": "^6.34.1"
+  }
+}
